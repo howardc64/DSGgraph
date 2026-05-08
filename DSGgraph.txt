@@ -1,0 +1,28 @@
+====
+
+Build python script to generate html
+
+Python3 DSGgraph.py csv html
+
+====
+
+Show 5 graph in the following order with same x (time) axis and scale
+	km,
+	pressure,
+	pump 1,
+	gear,
+	ATF temperature
+
+Use different color lines for each graph
+Add time slider UI to select 30s window of data for all graphs
+Add window time width slider range between 30s to 5min. Default 1min
+Add slider to position a vertical line in every graph (aligned on x axis) for tracking related activities on every graph
+
+smooth  changes in chart when changing sliders instead of redraw whole chart
+
+
+=== Reference
+
+Use reference image for UI style if exist
+Use reference html if exist
+Use reference python script if exist
